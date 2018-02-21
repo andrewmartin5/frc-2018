@@ -75,7 +75,7 @@ public class Lift extends PIDSubsystem {
     //enumerator that will be pulled from for the GoToHeight Command
     public enum LiftHeights {
         //will be changed
-        kFloor(0), kSwitch(1), kPortal(2), kIntake(3), kScaleLow(4), kScaleHigh(5), kClimb(6), kMaxHeight(7);
+        kFloor(0), kSwitch(22), kPortal(23), kScaleLow(51), kScaleHigh(75), kClimb(75), kMaxHeight(78);
 
         private double value;
 
